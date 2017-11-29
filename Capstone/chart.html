@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<title>Analysis Chart</title>
+	<!-- Meta tag Keywords -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="all">
+	<!-- Bootstrap-Core-CSS -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<!-- Style-CSS -->
+	<link rel="stylesheet" href="css/font-awesome.css" type="text/css" media="all">
+	<!-- Font-Awesome-Icons-CSS -->
+	<link href="css/nav.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- For-Navigation-CSS -->
+	<link href="css/lsb.css" rel="stylesheet" type="text/css" media="all">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.bundle.min.js"></script>
+	<style>
+	body {
+		overflow-x: hidden;
+	}
+	</style>
+</head>
+
+<body>
+	<h1 style="text-align: center; margin-top: 35px;">Analysis</h1>
+	<div style="display: flex; justify-content: center; align-items: center; margin-top: 50px;">
+		<div style="width: 400px; height: 400px;">
+			<canvas id="myChart" width="400" height="400"></canvas>
+		</div>
+		<div style="width: 400px; height: 400px; margin-left: 50px;">
+			<canvas id="myChart2" width="400" height="430"></canvas>
+		</div>
+		<div style="width: 400px; height: 400px; margin-left: 50px;">
+			<canvas id="myChart3" width="400" height="400"></canvas>
+		</div>
+	</div>
+
+	<script>
+	$Sdata = [25, 44, 30, 81, 56, 55, 40];
+	var ctx = document.getElementById("myChart");
+	var myChart = new Chart(ctx, {
+		  type: 'line',
+		  data: {
+		    labels: ["January", "February", "March", "April", "May", "June", "July"],
+		    datasets: [{
+		      label: 'Water required',
+		      fill: false,
+		      lineTension: 0.14,
+		      data: $Sdata,
+		      backgroundColor: [
+		        'rgba(255, 99, 132, 0.2)',
+		        'rgba(54, 162, 235, 0.2)',
+		        'rgba(255, 206, 86, 0.2)',
+		        'rgba(75, 192, 192, 0.2)',
+		        'rgba(153, 102, 255, 0.2)',
+		        'rgba(255, 159, 64, 0.2)'
+		      ],
+		      borderColor: [
+		        'rgba(255,99,132,1)',
+		        'rgba(54, 162, 235, 1)',
+		        'rgba(255, 206, 86, 1)',
+		        'rgba(75, 192, 192, 1)',
+		        'rgba(153, 102, 255, 1)',
+		        'rgba(255, 159, 64, 1)'
+		      ],
+		      borderWidth: 1
+		    }]
+		  },
+		  options: {
+		    scales: {
+		      yAxes: [{
+		        ticks: {
+		          beginAtZero: true
+		        }
+		      }]
+		    }
+		  }
+		});
+		var ctx2 = document.getElementById("myChart2");
+		var myChart = new Chart(ctx2, {
+			  type: 'bar',
+			  data: {
+			    labels: ["January", "February", "March", "April", "May", "June", "July"],
+			    datasets: [{
+			      label: 'Water required',
+			      fill: false,
+			      lineTension: 0.14,
+			      data: $Sdata,
+			      backgroundColor: [
+			        'rgba(255, 99, 132, 0.2)',
+			        'rgba(54, 162, 235, 0.2)',
+			        'rgba(255, 206, 86, 0.2)',
+			        'rgba(75, 192, 192, 0.2)',
+			        'rgba(153, 102, 255, 0.2)',
+			        'rgba(255, 159, 64, 0.2)'
+			      ],
+			      borderColor: [
+			        'rgba(255,99,132,1)',
+			        'rgba(54, 162, 235, 1)',
+			        'rgba(255, 206, 86, 1)',
+			        'rgba(75, 192, 192, 1)',
+			        'rgba(153, 102, 255, 1)',
+			        'rgba(255, 159, 64, 1)'
+			      ],
+			      borderWidth: 1
+			    }]
+			  },
+			  options: {
+			    scales: {
+			      yAxes: [{
+			        ticks: {
+			          beginAtZero: true
+			        }
+			      }]
+			    }
+			  }
+			});
+		var ctx3 = document.getElementById("myChart3");
+		var myChart = new Chart(ctx3, {
+		  	type: 'pie',
+			data: {
+		    labels: ["January", "February", "March", "April", "May", "June", "July"],
+		    datasets: [{
+		      label: 'Points',
+		      backgroundColor: ['#f1c40f', '#e67e22', '#16a085', '#2980b9', '#ff0000', '#2999b8', '#19a085'], 
+		      data: $Sdata,
+		      borderWidth: 1
+		    }]
+		  },
+		  options: {
+		    scales: {
+		      yAxes: [{
+		        ticks: {
+		          beginAtZero: true
+		        }
+		      }]
+		    }
+		  }
+		});
+	</script>
+</body>
+</html>
