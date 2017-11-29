@@ -7,13 +7,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<script type="application/x-javascript">
-		addEventListener("load", function () {
-			setTimeout(hideURLbar, 0);
-		}, false);
+		// addEventListener("load", function () {
+		// 	setTimeout(hideURLbar, 0);
+		// }, false);
 
-		function hideURLbar() {
-			window.scrollTo(0, 1);
-		}
+		// function hideURLbar() {
+		// 	window.scrollTo(0, 1);
+		// }
 	</script>
 	<!--// Meta tag Keywords -->
 	<!-- css files -->
@@ -91,7 +91,7 @@
 					<button type="button" class="overlay-close">Close</button>
 					<nav>
 						<ul>
-							<li><a href="index.html">Home</a></li>
+							<li><a href="index.php">Home</a></li>
 							<li><a href="#about" class="scroll">About US</a></li>
 							<li><a href="#services" class="scroll">Services</a></li>
 							<li><a href="#gallery" class="scroll">Gallery</a></li>
@@ -120,7 +120,7 @@
 		</div>
 		<div class="w3layouts_banner_info">
 			<section class="wrapper agileits-w3layouts_wrapper_home text-center">
-				<h1 class="w3l-logo"><a href="index.html"><i class="fa fa-envira" aria-hidden="true"></i>Crop Monitor</a></h1>
+				<h1 class="w3l-logo"><a href="index.php"><i class="fa fa-envira" aria-hidden="true"></i>Crop Monitor</a></h1>
 				<p>Complete Care For All Your Landscape Needs</p>
 				<div class="sentence">
 					<div class="popEffect">
@@ -176,8 +176,8 @@
 								<img src="images/s1.jpg" alt="" />
 								<div class="projects-grid-caption">
 
-									<a href="chart.html"><h4>Crop Monitor</h4></a>
-									<p>Our Beautiful Crop Monitor</p>
+									<a href="chartJan.php"><h4>January Analysis</h4></a>
+									<p>Crop Monitoring System</p>
 								</div>
 							</div>
 						</div>
@@ -188,20 +188,8 @@
 								<img src="images/s2.jpg" alt="" />
 								<div class="projects-grid-caption">
 
-									<a href="chart.html"><h4>Crop Monitor</h4></a>
-									<p>Our Beautiful Crop Monitor</p>
-								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="item">
-							<div class="projects-agile-grid-info">
-								<img src="images/s3.jpg" alt="" />
-								<div class="projects-grid-caption">
-
-									<a href="chart.html"><h4>Crop Monitor</h4></a>
-									<p>Our Beautiful Crop Monitor</p>
+									<a href="chartFeb.php"><h4>February Analysis</h4></a>
+									<p>Crop Monitoring System</p>
 								</div>
 							</div>
 						</div>
@@ -212,8 +200,20 @@
 								<img src="images/s4.jpg" alt="" />
 								<div class="projects-grid-caption">
 
-									<a href="chart.html"><h4>Crop Monitor</h4></a>
-									<p>Our Beautiful Crop Monitor</p>
+									<a href="chartMar.php"><h4>March Analysis</h4></a>
+									<p>Crop Monitoring System</p>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item">
+							<div class="projects-agile-grid-info">
+								<img src="images/s3.jpg" alt="" />
+								<div class="projects-grid-caption">
+
+									<a href="chartFreq.php"><h4>Frequency Analysis</h4></a>
+									<p>Crop Monitoring System</p>
 								</div>
 							</div>
 						</div>
@@ -224,8 +224,8 @@
 								<img src="images/s5.jpg" alt="" />
 								<div class="projects-grid-caption">
 
-									<a href="chart.html"><h4>Crop Monitor</h4></a>
-									<p>Our Beautiful Crop Monitor</p>
+									<a href="chartJan.php"><h4>Analysis</h4></a>
+									<p>Crop Monitoring System</p>
 								</div>
 							</div>
 						</div>
@@ -236,8 +236,8 @@
 								<img src="images/s6.jpg" alt="" />
 								<div class="projects-grid-caption">
 
-									<a href="chart.html"><h4>Crop Monitor</h4></a>
-									<p>Our Beautiful Crop Monitor</p>
+									<a href="chartJan.php"><h4>Analysis</h4></a>
+									<p>Crop Monitoring System</p>
 								</div>
 							</div>
 						</div>
@@ -536,7 +536,7 @@
 	<!-- copyright -->
 	<div class="w3layouts_copy_right">
 		<div class="container">
-			<p>© 2017 Capstone. All rights reserved | Design by <a href="http://w3layouts.com">Vatsal</a></p>
+			<p>© 2017 Capstone. All rights reserved | Design by <a href="#">Capstone</a></p>
 		</div>
 	</div>
 	<!-- //copyright -->
