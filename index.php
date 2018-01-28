@@ -121,12 +121,11 @@
 		<div class="w3layouts_banner_info">
 			<section class="wrapper agileits-w3layouts_wrapper_home text-center">
 				<h1 class="w3l-logo"><a href="index.php"><i class="fa fa-envira" aria-hidden="true"></i>Crop Monitor</a></h1>
-				<p>Complete Care For All Your Landscape Needs</p>
+				<p>Smart Crop Monitoring System </p>
 				<div class="sentence">
 					<div class="popEffect">
-						<span>Designing your dream Garden </span>
-						<span>Beautiful Garden </span>
-						<span>Gardening design</span>
+						<span>Designing your dream farm </span>
+						<span>A smart farm </span>
 					</div>
 				</div>
 			</section>
@@ -142,7 +141,7 @@
 					<img class="img-responsive mix-in" src="images/c1.jpg" alt="">
 				</div>
 				<div class="text-about ab-agile1">
-					<h4>Hedge Trimming</h4>
+					<h4>Automated Watering</h4>
 				</div>
 			</div>
 			<div class="col-md-4 col-xs-4 col-news-top">
@@ -150,7 +149,7 @@
 					<img class="img-responsive mix-in" src="images/c2.jpg" alt="">
 				</div>
 				<div class="text-about ab-agile2">
-					<h4>Grass sod & Turf Laying</h4>
+					<h4>Leaf disease detection</h4>
 				</div>
 			</div>
 			<div class="col-md-4 col-xs-4 col-news-top">
@@ -158,7 +157,7 @@
 					<img class="img-responsive mix-in" src="images/c3.jpg" alt="">
 				</div>
 				<div class="text-about ab-agile3">
-					<h4>Saplings and Seeds</h4>
+					<h4>Trend Analysis</h4>
 				</div>
 			</div>
 			<div class="clearfix"> </div>
@@ -176,7 +175,7 @@
 								<img src="images/s1.jpg" alt="" />
 								<div class="projects-grid-caption">
 
-									<a href="chartJan.php"><h4>January Analysis</h4></a>
+									<a href="chartJan.php"><h4>December Analysis</h4></a>
 									<p>Crop Monitoring System</p>
 								</div>
 							</div>
@@ -188,7 +187,7 @@
 								<img src="images/s2.jpg" alt="" />
 								<div class="projects-grid-caption">
 
-									<a href="chartFeb.php"><h4>February Analysis</h4></a>
+									<a href="chartFeb.php"><h4>January Analysis</h4></a>
 									<p>Crop Monitoring System</p>
 								</div>
 							</div>
@@ -200,7 +199,7 @@
 								<img src="images/s4.jpg" alt="" />
 								<div class="projects-grid-caption">
 
-									<a href="chartMar.php"><h4>March Analysis</h4></a>
+									<a href="chartMar.php"><h4>February Analysis</h4></a>
 									<p>Crop Monitoring System</p>
 								</div>
 							</div>
@@ -257,8 +256,8 @@
 						<p>1</p>
 					</div>
 					<div class="wthree_offer_grid1">
-						<h4>Watering Garden</h4>
-						<p class="w3_agileits_service_para">Duis autem vel eum iriure dolor in hendrerit in vulput ate velit esse molestie.</p>
+						<h4>Automated watering</h4>
+						<p class="w3_agileits_service_para">We are best at building smart crop monitoring systems.</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -267,8 +266,8 @@
 						<p>2</p>
 					</div>
 					<div class="wthree_offer_grid1">
-						<h4>Rubbish Removal</h4>
-						<p class="w3_agileits_service_para">Duis autem vel eum iriure dolor in hendrerit in vulput ate velit esse molestie.</p>
+						<h4>Leaf disease detection</h4>
+						<p class="w3_agileits_service_para">We are best at building smart crop monitoring systems.</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -277,8 +276,8 @@
 						<p>3</p>
 					</div>
 					<div class="wthree_offer_grid1">
-						<h4>Planting Tree</h4>
-						<p class="w3_agileits_service_para">Duis autem vel eum iriure dolor in hendrerit in vulput ate velit esse molestie.</p>
+						<h4>Trend analysis</h4>
+						<p class="w3_agileits_service_para">We are best at building smart crop monitoring systems.</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -289,8 +288,8 @@
 						<p>4</p>
 					</div>
 					<div class="wthree_offer_grid1">
-						<h4>Tree Cleaning</h4>
-						<p class="w3_agileits_service_para">Duis autem vel eum iriure dolor in hendrerit in vulput ate velit esse molestie.</p>
+						<h4>IOT embedded system</h4>
+						<p class="w3_agileits_service_para">We are best at building smart crop monitoring systems.</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -299,8 +298,8 @@
 						<p>5</p>
 					</div>
 					<div class="wthree_offer_grid1">
-						<h4>Support Center</h4>
-						<p class="w3_agileits_service_para">Duis autem vel eum iriure dolor in hendrerit in vulput ate velit esse molestie.</p>
+						<h4>Genric system for any crop at any geographical location</h4>
+						<p class="w3_agileits_service_para">We are best at building smart crop monitoring systems.</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -314,111 +313,183 @@
 	<!-- gallery -->
 	<div class="gallery" id="gallery">
 		<div class="container">
-			<h3 class="title-w3l">Beautiful <span>Gallery</span></h3>
+			<h3 class="title-w3l">Our <span>Gallery</span></h3>
 			<div class="w3layouts_gallery_grids">
 				<div class="col-md-4 col-xs-4 w3layouts_gallery_grid">
-					<a href="images/g1.jpg" class="lsb-preview" data-lsb-group="header">
+					<a href="disImages/d5/2.jpg" class="lsb-preview" data-lsb-group="header">
 						<div class="w3layouts_news_grid">
-							<img src="images/g1.jpg" alt=" " class="img-responsive">
+							<img src="disImages/d5/2.jpg" alt=" " class="" style="width: 100%; height: 233px;">
 							<div class="w3layouts_news_grid_pos">
 								<div class="wthree_text">
-									<h3>Crop Monitor</h3>
+									<h3>Healthy Leaf</h3>
 								</div>
 							</div>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-4 col-xs-4 w3layouts_gallery_grid">
-					<a href="images/g2.jpg" class="lsb-preview" data-lsb-group="header">
+					<a href="disImages/d5/5.jpg" class="lsb-preview" data-lsb-group="header">
 						<div class="w3layouts_news_grid">
-							<img src="images/g2.jpg" alt=" " class="img-responsive">
+							<img src="disImages/d5/5.jpg" alt=" " class="" style="width: 100%; height: 233px;">
 							<div class="w3layouts_news_grid_pos">
 								<div class="wthree_text">
-									<h3>Crop Monitor</h3>
+									<h3>Healthy Leaf</h3>
 								</div>
 							</div>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-4 col-xs-4 w3layouts_gallery_grid">
-					<a href="images/g3.jpg" class="lsb-preview" data-lsb-group="header">
+					<a href="disImages/d5/9.jpg" class="lsb-preview" data-lsb-group="header">
 						<div class="w3layouts_news_grid">
-							<img src="images/g3.jpg" alt=" " class="img-responsive">
+							<img src="disImages/d5/9.jpg" alt=" " class="" style="width: 100%; height: 233px;">
 							<div class="w3layouts_news_grid_pos">
 								<div class="wthree_text">
-									<h3>Crop Monitor</h3>
+									<h3>Healthy Leaf</h3>
 								</div>
 							</div>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-4 col-xs-4 w3layouts_gallery_grid">
-					<a href="images/g4.jpg" class="lsb-preview" data-lsb-group="header">
+					<a href="disImages/d1/1.jpg" class="lsb-preview" data-lsb-group="header">
 						<div class="w3layouts_news_grid">
-							<img src="images/g4.jpg" alt=" " class="img-responsive">
+							<img src="disImages/d1/1.jpg" alt=" " class="" style="width: 100%; height: 233px;">
 							<div class="w3layouts_news_grid_pos">
 								<div class="wthree_text">
-									<h3>Crop Monitor</h3>
+									<h3>Alternaria Alternata</h3>
 								</div>
 							</div>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-4 col-xs-4 w3layouts_gallery_grid">
-					<a href="images/g5.jpg" class="lsb-preview" data-lsb-group="header">
+					<a href="disImages/d1/4.jpg" class="lsb-preview" data-lsb-group="header">
 						<div class="w3layouts_news_grid">
-							<img src="images/g5.jpg" alt=" " class="img-responsive">
+							<img src="disImages/d1/4.jpg" alt=" " class="" style="width: 100%; height: 233px;">
 							<div class="w3layouts_news_grid_pos">
 								<div class="wthree_text">
-									<h3>Crop Monitor</h3>
+									<h3>Alternaria Alternata</h3>
 								</div>
 							</div>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-4 col-xs-4 w3layouts_gallery_grid">
-					<a href="images/g6.jpg" class="lsb-preview" data-lsb-group="header">
+					<a href="disImages/d1/3.jpg" class="lsb-preview" data-lsb-group="header">
 						<div class="w3layouts_news_grid">
-							<img src="images/g6.jpg" alt=" " class="img-responsive">
+							<img src="disImages/d1/3.jpg" alt=" " class="" style="width: 100%; height: 233px;">
 							<div class="w3layouts_news_grid_pos">
 								<div class="wthree_text">
-									<h3>Crop Monitor</h3>
+									<h3>Alternaria Alternata</h3>
 								</div>
 							</div>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-4 col-xs-4 w3layouts_gallery_grid">
-					<a href="images/g7.jpg" class="lsb-preview" data-lsb-group="header">
+					<a href="disImages/d2/20.jpg" class="lsb-preview" data-lsb-group="header">
 						<div class="w3layouts_news_grid">
-							<img src="images/g7.jpg" alt=" " class="img-responsive">
+							<img src="disImages/d2/20.jpg" alt=" " class="" style="width: 100%; height: 233px;">
 							<div class="w3layouts_news_grid_pos">
 								<div class="wthree_text">
-									<h3>Crop Monitor</h3>
+									<h3>Anthracnose</h3>
 								</div>
 							</div>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-4 col-xs-4 w3layouts_gallery_grid">
-					<a href="images/g8.jpg" class="lsb-preview" data-lsb-group="header">
+					<a href="disImages/d2/13.jpg" class="lsb-preview" data-lsb-group="header">
 						<div class="w3layouts_news_grid">
-							<img src="images/g8.jpg" alt=" " class="img-responsive">
+							<img src="disImages/d2/13.jpg" alt=" " class="" style="width: 100%; height: 233px;">
 							<div class="w3layouts_news_grid_pos">
 								<div class="wthree_text">
-									<h3>Crop Monitor</h3>
+									<h3>Anthracnose</h3>
 								</div>
 							</div>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-4 col-xs-4 w3layouts_gallery_grid">
-					<a href="images/g9.jpg" class="lsb-preview" data-lsb-group="header">
+					<a href="disImages/d2/22.jpg" class="lsb-preview" data-lsb-group="header">
 						<div class="w3layouts_news_grid">
-							<img src="images/g9.jpg" alt=" " class="img-responsive">
+							<img src="disImages/d2/22.jpg" alt=" " class="" style="width: 100%; height: 233px;">
 							<div class="w3layouts_news_grid_pos">
 								<div class="wthree_text">
-									<h3>Crop Monitor</h3>
+									<h3>Anthracnose</h3>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 col-xs-4 w3layouts_gallery_grid">
+					<a href="disImages/d3/1.jpg" class="lsb-preview" data-lsb-group="header">
+						<div class="w3layouts_news_grid">
+							<img src="disImages/d3/1.jpg" alt=" " class="" style="width: 100%; height: 233px;">
+							<div class="w3layouts_news_grid_pos">
+								<div class="wthree_text">
+									<h3>Bacterial Blight</h3>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 col-xs-4 w3layouts_gallery_grid">
+					<a href="disImages/d3/2.jpg" class="lsb-preview" data-lsb-group="header">
+						<div class="w3layouts_news_grid">
+							<img src="disImages/d3/2.jpg" alt=" " class="" style="width: 100%; height: 233px;">
+							<div class="w3layouts_news_grid_pos">
+								<div class="wthree_text">
+									<h3>Bacterial Blight</h3>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 col-xs-4 w3layouts_gallery_grid">
+					<a href="disImages/d3/4.jpg" class="lsb-preview" data-lsb-group="header">
+						<div class="w3layouts_news_grid">
+							<img src="disImages/d3/4.jpg" alt=" " class="" style="width: 100%; height: 233px;">
+							<div class="w3layouts_news_grid_pos">
+								<div class="wthree_text">
+									<h3>Bacterial Blight</h3>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 col-xs-4 w3layouts_gallery_grid">
+					<a href="disImages/d4/2.jpg" class="lsb-preview" data-lsb-group="header">
+						<div class="w3layouts_news_grid">
+							<img src="disImages/d4/2.jpg" alt=" " class="" style="width: 100%; height: 233px;">
+							<div class="w3layouts_news_grid_pos">
+								<div class="wthree_text">
+									<h3>Cercospora Spot</h3>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 col-xs-4 w3layouts_gallery_grid">
+					<a href="disImages/d4/6.jpg" class="lsb-preview" data-lsb-group="header">
+						<div class="w3layouts_news_grid">
+							<img src="disImages/d4/6.jpg" alt=" " class="" style="width: 100%; height: 233px;">
+							<div class="w3layouts_news_grid_pos">
+								<div class="wthree_text">
+									<h3>Cercospora Spot</h3>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 col-xs-4 w3layouts_gallery_grid">
+					<a href="disImages/d4/8.jpg" class="lsb-preview" data-lsb-group="header">
+						<div class="w3layouts_news_grid">
+							<img src="disImages/d4/8.jpg" alt=" " class="" style="width: 100%; height: 233px;">
+							<div class="w3layouts_news_grid_pos">
+								<div class="wthree_text">
+									<h3>Cercospora Spot</h3>
 								</div>
 							</div>
 						</div>
@@ -536,7 +607,7 @@
 	<!-- copyright -->
 	<div class="w3layouts_copy_right">
 		<div class="container">
-			<p>© 2017 Capstone. All rights reserved | Design by <a href="#">Capstone</a></p>
+			<p>© 2018 Capstone. All rights reserved | Design by <a href="#">Capstone</a></p>
 		</div>
 	</div>
 	<!-- //copyright -->
@@ -603,15 +674,15 @@
 	<script type="text/javascript" src="js/move-top.js"></script>
 	<script type="text/javascript" src="js/easing.js"></script>
 	<script type="text/javascript">
-		jQuery(document).ready(function ($) {
-			$(".scroll").click(function (event) {
-				event.preventDefault();
+		// jQuery(document).ready(function ($) {
+		// 	$(".scroll").click(function (event) {
+		// 		event.preventDefault();
 
-				$('html,body').animate({
-					scrollTop: $(this.hash).offset().top
-				}, 1000);
-			});
-		});
+		// 		$('html,body').animate({
+		// 			scrollTop: $(this.hash).offset().top
+		// 		}, 1000);
+		// 	});
+		// });
 	</script>
 	<!-- //end-smooth-scrolling -->
 	<!-- smooth scrolling -->

@@ -2,7 +2,7 @@
 	$servername = "localhost";
 	$username = "root";
 	$password = "Vatsal&294";
-	$dbname = "capstone";
+	$dbname = "water_level";
 
 	// Create connection
 	$conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -39,44 +39,36 @@
 </head>
 
 <body>
-	<h1 style="text-align: center; margin-top: 35px;">Analysis: Frequency</h1>
+	<h1 style="text-align: center; margin-top: 35px;">Analysis: March</h1>
 	<?php
 
-    $text = '';
-    $op = '';
-	$sql = "SELECT * FROM January";
+	$sql = "SELECT * FROM data WHERE Id>=31 AND ID<=60";
 	$result = mysqli_query($conn, $sql);
 
 	if (mysqli_num_rows($result) > 0) {
+	    // output data of each row
 	    $i = 0;
+	    $a = 0;
+	    $j = -1;
+	    $text = '';
+	    $op = '';
+	    $arr = array();
 	    while($row = mysqli_fetch_assoc($result)) {
-	    	$i++;
+	    	// echo $row["Id"] . " : " . $row["water_amount"] . "<br>";
+     		$a = $a + $row["water_amount"];
+     		$i++;
+	     	if($i==3) {
+	     		$i = 0;
+	     		$j++;
+	     		$arr[$j] = $a/3;
+	     		//echo $j . " : " . $arr[$j] . "<br>";
+	     		$op = $op.','.$arr[$j];
+	     		$a = 0;
+	     	}
 	    }
+	} else {
+	    echo "0 results";
 	}
-	$op = $op.','.$i;
-
-	$sql = "SELECT * FROM February";
-	$result = mysqli_query($conn, $sql);
-
-	if (mysqli_num_rows($result) > 0) {
-	    $i = 0;
-	    while($row = mysqli_fetch_assoc($result)) {
-	    	$i++;
-	    }
-	}
-	$op = $op.','.$i;
-
-	$sql = "SELECT * FROM March";
-	$result = mysqli_query($conn, $sql);
-
-	if (mysqli_num_rows($result) > 0) {
-	    $i = 0;
-	    while($row = mysqli_fetch_assoc($result)) {
-	    	$i++;
-	    }
-	}
-	$op = $op.','.$i;
-
 	$text = "<input type='text' style='display: none; width: 100%;' value='".$op."' id='txtVal' name='txtVal'>";
 	echo $text;
 
@@ -107,9 +99,9 @@
 	var myChart = new Chart(ctx, {
 		  type: 'line',
 		  data: {
-		    labels: ["January", "February", "March"],
+		    labels: ["Phase 1", "Phase 2", "Phase 3", "Phase 4", "Phase 5", "Phase 6", "Phase 7", "Phase 8", "Phase 9", "Phase 10"],
 		    datasets: [{
-		      label: 'Frequency of Water required',
+		      label: 'Water required',
 		      fill: false,
 		      lineTension: 0.14,
 		      data: Sdata,
@@ -146,9 +138,9 @@
 		var myChart = new Chart(ctx2, {
 			  type: 'bar',
 			  data: {
-			    labels: ["January", "February", "March"],
+			    labels: ["Phase 1", "Phase 2", "Phase 3", "Phase 4", "Phase 5", "Phase 6", "Phase 7", "Phase 8", "Phase 9", "Phase 10"],
 			    datasets: [{
-			      label: 'Frequency of Water required',
+			      label: 'Water required',
 			      fill: false,
 			      lineTension: 0.14,
 			      data: Sdata,
@@ -158,7 +150,10 @@
 			        'rgba(255, 206, 86, 0.2)',
 			        'rgba(75, 192, 192, 0.2)',
 			        'rgba(153, 102, 255, 0.2)',
-			        'rgba(255, 159, 64, 0.2)'
+			        'rgba(255, 159, 64, 0.2)',
+			        'rgba(255, 99, 132, 0.2)',
+			        'rgba(54, 162, 235, 0.2)',
+			        'rgba(255, 206, 86, 0.2)'
 			      ],
 			      borderColor: [
 			        'rgba(255,99,132,1)',
@@ -166,7 +161,11 @@
 			        'rgba(255, 206, 86, 1)',
 			        'rgba(75, 192, 192, 1)',
 			        'rgba(153, 102, 255, 1)',
-			        'rgba(255, 159, 64, 1)'
+			        'rgba(255, 159, 64, 1)',
+			        'rgba(54, 162, 235, 1)',
+			        'rgba(255, 206, 86, 1)',
+			        'rgba(75, 192, 192, 1)',
+			        'rgba(54, 162, 235, 1)',
 			      ],
 			      borderWidth: 1
 			    }]
@@ -185,10 +184,10 @@
 		var myChart = new Chart(ctx3, {
 		  	type: 'pie',
 			data: {
-		    labels: ["January", "February", "March"],
+		    labels: ["Phase 1", "Phase 2", "Phase 3", "Phase 4", "Phase 5", "Phase 6", "Phase 7", "Phase 8", "Phase 9", "Phase 10"],
 		    datasets: [{
 		      label: 'Points',
-		      backgroundColor: ['#f1c40f', '#e67e22', '#16a085'], 
+		      backgroundColor: ['#f1c40f', '#e67e22', '#16a085', '#2980b9', '#ff0000', '#2999b8', '#19a085', '#f1c40f', '#2980b9', '#ff0000'], 
 		      data: Sdata,
 		      borderWidth: 1
 		    }]

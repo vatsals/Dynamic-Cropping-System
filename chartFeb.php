@@ -2,7 +2,7 @@
 	$servername = "localhost";
 	$username = "root";
 	$password = "Vatsal&294";
-	$dbname = "capstone";
+	$dbname = "water_level";
 
 	// Create connection
 	$conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -39,10 +39,10 @@
 </head>
 
 <body>
-	<h1 style="text-align: center; margin-top: 35px;">Analysis: January</h1>
+	<h1 style="text-align: center; margin-top: 35px;">Analysis: January 14 - February 12</h1>
 	<?php
 
-	$sql = "SELECT * FROM January";
+	$sql = "SELECT * FROM data WHERE Id>=31 AND ID<=60";
 	$result = mysqli_query($conn, $sql);
 
 	if (mysqli_num_rows($result) > 0) {
@@ -99,7 +99,7 @@
 	var myChart = new Chart(ctx, {
 		  type: 'line',
 		  data: {
-		    labels: ["Phase 1", "Phase 2", "Phase 3", "Phase 4", "Phase 5", "Phase 6", "Phase 7"],
+		    labels: ["Phase 1", "Phase 2", "Phase 3", "Phase 4", "Phase 5", "Phase 6", "Phase 7", "Phase 8", "Phase 9", "Phase 10"],
 		    datasets: [{
 		      label: 'Water required',
 		      fill: false,
@@ -138,7 +138,7 @@
 		var myChart = new Chart(ctx2, {
 			  type: 'bar',
 			  data: {
-			    labels: ["Phase 1", "Phase 2", "Phase 3", "Phase 4", "Phase 5", "Phase 6", "Phase 7"],
+			    labels: ["Phase 1", "Phase 2", "Phase 3", "Phase 4", "Phase 5", "Phase 6", "Phase 7", "Phase 8", "Phase 9", "Phase 10"],
 			    datasets: [{
 			      label: 'Water required',
 			      fill: false,
@@ -150,7 +150,10 @@
 			        'rgba(255, 206, 86, 0.2)',
 			        'rgba(75, 192, 192, 0.2)',
 			        'rgba(153, 102, 255, 0.2)',
-			        'rgba(255, 159, 64, 0.2)'
+			        'rgba(255, 159, 64, 0.2)',
+			        'rgba(255, 99, 132, 0.2)',
+			        'rgba(54, 162, 235, 0.2)',
+			        'rgba(255, 206, 86, 0.2)'
 			      ],
 			      borderColor: [
 			        'rgba(255,99,132,1)',
@@ -158,7 +161,11 @@
 			        'rgba(255, 206, 86, 1)',
 			        'rgba(75, 192, 192, 1)',
 			        'rgba(153, 102, 255, 1)',
-			        'rgba(255, 159, 64, 1)'
+			        'rgba(255, 159, 64, 1)',
+			        'rgba(54, 162, 235, 1)',
+			        'rgba(255, 206, 86, 1)',
+			        'rgba(75, 192, 192, 1)',
+			        'rgba(54, 162, 235, 1)',
 			      ],
 			      borderWidth: 1
 			    }]
@@ -177,10 +184,10 @@
 		var myChart = new Chart(ctx3, {
 		  	type: 'pie',
 			data: {
-		    labels: ["Phase 1", "Phase 2", "Phase 3", "Phase 4", "Phase 5", "Phase 6", "Phase 7"],
+		    labels: ["Phase 1", "Phase 2", "Phase 3", "Phase 4", "Phase 5", "Phase 6", "Phase 7", "Phase 8", "Phase 9", "Phase 10"],
 		    datasets: [{
 		      label: 'Points',
-		      backgroundColor: ['#f1c40f', '#e67e22', '#16a085', '#2980b9', '#ff0000', '#2999b8', '#19a085'], 
+		      backgroundColor: ['#f1c40f', '#e67e22', '#16a085', '#2980b9', '#ff0000', '#2999b8', '#19a085', '#f1c40f', '#2980b9', '#ff0000'], 
 		      data: Sdata,
 		      borderWidth: 1
 		    }]
